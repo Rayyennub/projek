@@ -1,0 +1,88 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: lightskyblue;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.set1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9,.box10,.box11,.box12 { 
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    box-shadow: 5px 7px 8px black;
+}
+
+.box1 { 
+    background-image: url(https://picsum.photos/seed/77/900);
+}
+
+.box2 { 
+    background-image: url(https://picsum.photos/seed/70/900);
+}
+
+.box3 {
+    background-image: url(https://picsum.photos/seed/23/900);
+}
+
+.box4 { 
+    background-image: url(https://picsum.photos/seed/7/900);
+}
+
+.box5 { 
+    background-image: url(https://picsum.photos/seed/87/900);
+}
+
+.box6 { 
+    background-image: url(https://picsum.photos/seed/52/900);
+}
+
+.box7 { 
+    background-image: url(https://picsum.photos/seed/41/900);
+}
+
+.box8 { 
+    background-image: url(https://picsum.photos/seed/50/900);
+}
+
+.box9 { 
+    background-image: url(https://picsum.photos/seed/99/900);
+}
+
+.box10 { 
+    background-image: url(https://picsum.photos/seed/33/900);
+}
+
+.box11 { 
+    background-image: url(https://picsum.photos/seed/49/900);
+}
+
+.box12 { 
+    background-image: url(https://picsum.photos/seed/88/900);
+}
